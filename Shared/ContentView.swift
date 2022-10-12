@@ -8,33 +8,60 @@
 import SwiftUI
 
 struct ContentView: View {
+    let names=[
+        "name1","name2","name3"
+    ]
+    
     var body: some View {
         NavigationView{
             ZStack{
                 VStack{
-                    Text("hello")
-                    PageIcon(name:"hi", img:"fuck")
-                }.navigationTitle("俄羅斯方塊")
+                    NavigationLink(
+                        destination: Game(),
+                        label: {
+                            Text("Game").padding(.horizontal).frame(maxWidth: .infinity ).font(Font.system(size:  50)).foregroundColor(Color(red: 1, green: 0.5, blue: 0.5 )).background(Color(red:0.4, green:0.1, blue: 0.1))
+                        }
+                    )
+                    Spacer().frame(height:10)
+                    NavigationLink(
+                        destination: Game(),
+                        label: {
+                            Text("Game").padding(.horizontal).frame(maxWidth: .infinity ).font(Font.system(size:  50)).foregroundColor(Color(red: 1, green: 0.5, blue: 1 )).background(Color(red:0.4, green:0.1, blue: 0.4))
+                        }
+                    )
+                    Spacer().frame(height:10)
+                    NavigationLink(
+                        destination: Game(),
+                        label: {
+                            Text("Game").padding(.horizontal).frame(maxWidth: .infinity ).font(Font.system(size:  50)).foregroundColor(Color(red: 0.5, green: 1, blue: 0.5 )).background(Color(red:0.1, green:0.4, blue: 0.1))
+                        }
+                    )
+                    Spacer().frame(height:10)
+                    NavigationLink(
+                        destination: Game(),
+                        label: {
+                            Text("Game").padding(.horizontal).frame(maxWidth: .infinity ).font(Font.system(size:  50)).foregroundColor(Color(red: 0.5, green: 0.5, blue: 1 )).background(Color(red:0.1, green:0.1, blue: 0.4))
+                        }
+                    )
+                }.padding(.horizontal).navigationTitle("俄羅斯方塊")
             }
             
         }
     }
 }
 
-struct PageIcon: View{
-    let name:String
-    let img:String
-    var body: some View{
-        VStack{
-            Text(name)
-        }
-        
-    }
-    
-}
+//struct PageIcon: View{
+//    let name:String
+//    var body: some View{
+//
+//
+//    }
+//
+//}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+//            .colorScheme(.dark)
     }
 }

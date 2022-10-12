@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA4EF97F28F73C3D004A283B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EF97E28F73C3D004A283B /* Game.swift */; };
+		BA4EF98028F73C3D004A283B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EF97E28F73C3D004A283B /* Game.swift */; };
 		BA51B41B28ED808700E67A55 /* hw2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA51B40828ED808600E67A55 /* hw2App.swift */; };
 		BA51B41C28ED808700E67A55 /* hw2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA51B40828ED808600E67A55 /* hw2App.swift */; };
 		BA51B41D28ED808700E67A55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA51B40928ED808600E67A55 /* ContentView.swift */; };
@@ -16,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA4EF97E28F73C3D004A283B /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		BA51B40828ED808600E67A55 /* hw2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw2App.swift; sourceTree = "<group>"; };
 		BA51B40928ED808600E67A55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA51B40A28ED808700E67A55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,6 +63,7 @@
 				BA51B40828ED808600E67A55 /* hw2App.swift */,
 				BA51B40928ED808600E67A55 /* ContentView.swift */,
 				BA51B40A28ED808700E67A55 /* Assets.xcassets */,
+				BA4EF97E28F73C3D004A283B /* Game.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -188,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA51B41D28ED808700E67A55 /* ContentView.swift in Sources */,
+				BA4EF97F28F73C3D004A283B /* Game.swift in Sources */,
 				BA51B41B28ED808700E67A55 /* hw2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA51B41E28ED808700E67A55 /* ContentView.swift in Sources */,
+				BA4EF98028F73C3D004A283B /* Game.swift in Sources */,
 				BA51B41C28ED808700E67A55 /* hw2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +327,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M2NFRJ9AUG;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -342,6 +349,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M2NFRJ9AUG;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

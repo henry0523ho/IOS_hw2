@@ -76,6 +76,7 @@ struct Tetris99Cont: View{
                 Text("TETRIS99")
                     .font(.largeTitle)
             }
+            Text("《俄羅斯方塊Tetris 99》是款Switch平台的Switch Online會員免費遊戲，其玩法是在俄羅斯方塊之上加入了Battle Royale（大逃殺/食雞）元素，一局入面會有99名選手，廝殺到最後生還的就是勝利者。而有別於以往1對1或4打的Tetris，99人大逃殺的玩法就是可以選擇對手攻擊，以及有KO計及搶奪Badges(徽章)，越多Badges攻擊力越高，就同Battle Royale掠奪對手變強一樣。")
             
         }
     }

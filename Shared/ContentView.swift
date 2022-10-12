@@ -26,7 +26,7 @@ struct ContentView: View {
                     NavigationLink(
                         destination: Game(),
                         label: {
-                            Text("Game").padding(.horizontal).frame(maxWidth: .infinity ).font(Font.system(size:  50)).foregroundColor(Color(red: 1, green: 0.5, blue: 1 )).background(Color(red:0.4, green:0.1, blue: 0.4))
+                            Text("遊戲技巧").padding(.horizontal).frame(maxWidth: .infinity ).font(Font.system(size:  50)).foregroundColor(Color(red: 1, green: 0.5, blue: 1 )).background(Color(red:0.4, green:0.1, blue: 0.4))
                         }
                     )
                     Spacer().frame(height:10)
@@ -56,15 +56,6 @@ struct ContentView: View {
         }
     }
 }
-
-//struct PageIcon: View{
-//    let name:String
-//    var body: some View{
-//
-//
-//    }
-//
-//}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

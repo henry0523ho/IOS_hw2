@@ -31,7 +31,7 @@ struct Opener: View {
                     if selectedIndex==0{
                         Text("TKI")
                             .font(.title)
-                        Text("TKI")
+                        Text("The TKI 3 opening (Japanese 開幕TSD) is a setup invented by Tetris DS player TKI.\nWith an I tetromino early in the first bag, the player can try using the basic TKI-3 Opener. Given the right pieces, it allows for three T-Spin Doubles and a T-Spin Triple to finish. This is a good setup since it uses all pieces in a good balance, as well as not wasting a T.\nBasically, the I piece comes before Z. The J piece can be placed on O vertically, on S and O horizontally or upside down on Z (there is an alternative way). Furthermore, if the J piece comes early, there is a variant the player can use. Throughout these, however, the basic setup remains the same.")
                         VideoPlayer(player: AVPlayer(url: tki_url)).scaledToFit()
                     }else if selectedIndex==1{
                         Text("PCO")

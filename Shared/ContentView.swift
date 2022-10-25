@@ -31,16 +31,16 @@ struct ContentView: View {
                     )
                     Spacer().frame(height:10)
                     NavigationLink(
-                        destination: Game(),
+                        destination: Piece(),
                         label: {
-                            Text("Game").padding(.horizontal).frame(maxWidth: .infinity ).font(Font.system(size:  50)).foregroundColor(Color(red: 0.5, green: 1, blue: 0.5 )).background(Color(red:0.1, green:0.4, blue: 0.1))
+                            Text("方塊圖鑑").padding(.horizontal).frame(maxWidth: .infinity ).font(Font.system(size:  50)).foregroundColor(Color(red: 0.5, green: 1, blue: 0.5 )).background(Color(red:0.1, green:0.4, blue: 0.1))
                         }
                     )
                     Spacer().frame(height:10)
                     NavigationLink(
-                        destination: Game(),
+                        destination: Fall(),
                         label: {
-                            Text("Game").padding(.horizontal).frame(maxWidth: .infinity ).font(Font.system(size:  50)).foregroundColor(Color(red: 0.5, green: 0.5, blue: 1 )).background(Color(red:0.1, green:0.1, blue: 0.4))
+                            Text("體驗區").padding(.horizontal).frame(maxWidth: .infinity ).font(Font.system(size:  50)).foregroundColor(Color(red: 0.5, green: 0.5, blue: 1 )).background(Color(red:0.1, green:0.1, blue: 0.4))
                         }
                     )
                     Spacer().frame(height:10)

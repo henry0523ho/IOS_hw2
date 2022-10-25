@@ -10,6 +10,9 @@ import SwiftUI
 struct Info: View {
     var body: some View {
         ZStack{
+            VStack{
+                Text("作者：henry0523ho")
+            }
         }.navigationTitle("其他資訊")
     }
 }

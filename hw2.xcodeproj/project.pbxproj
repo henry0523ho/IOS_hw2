@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55B0C0832907FE6E00B4B66B /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B0C0822907FE6E00B4B66B /* Info.swift */; };
+		55B0C0842907FE6E00B4B66B /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B0C0822907FE6E00B4B66B /* Info.swift */; };
+		55B0C08A2907FE9C00B4B66B /* Opener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B0C0892907FE9C00B4B66B /* Opener.swift */; };
+		55B0C08B2907FE9C00B4B66B /* Opener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B0C0892907FE9C00B4B66B /* Opener.swift */; };
 		BA4EF97F28F73C3D004A283B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EF97E28F73C3D004A283B /* Game.swift */; };
 		BA4EF98028F73C3D004A283B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EF97E28F73C3D004A283B /* Game.swift */; };
-		BA4EF98428F760E2004A283B /* strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EF98328F760E2004A283B /* strategy.swift */; };
-		BA4EF98528F760E2004A283B /* strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4EF98328F760E2004A283B /* strategy.swift */; };
 		BA51B41B28ED808700E67A55 /* hw2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA51B40828ED808600E67A55 /* hw2App.swift */; };
 		BA51B41C28ED808700E67A55 /* hw2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA51B40828ED808600E67A55 /* hw2App.swift */; };
 		BA51B41D28ED808700E67A55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA51B40928ED808600E67A55 /* ContentView.swift */; };
@@ -20,8 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55B0C0822907FE6E00B4B66B /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		55B0C0892907FE9C00B4B66B /* Opener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opener.swift; sourceTree = "<group>"; };
 		BA4EF97E28F73C3D004A283B /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
-		BA4EF98328F760E2004A283B /* strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strategy.swift; sourceTree = "<group>"; };
 		BA51B40828ED808600E67A55 /* hw2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hw2App.swift; sourceTree = "<group>"; };
 		BA51B40928ED808600E67A55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA51B40A28ED808700E67A55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -65,7 +68,8 @@
 			children = (
 				BA51B40828ED808600E67A55 /* hw2App.swift */,
 				BA51B40928ED808600E67A55 /* ContentView.swift */,
-				BA4EF98328F760E2004A283B /* strategy.swift */,
+				55B0C0892907FE9C00B4B66B /* Opener.swift */,
+				55B0C0822907FE6E00B4B66B /* Info.swift */,
 				BA51B40A28ED808700E67A55 /* Assets.xcassets */,
 				BA4EF97E28F73C3D004A283B /* Game.swift */,
 			);
@@ -195,9 +199,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA4EF98428F760E2004A283B /* strategy.swift in Sources */,
+				55B0C08A2907FE9C00B4B66B /* Opener.swift in Sources */,
 				BA51B41D28ED808700E67A55 /* ContentView.swift in Sources */,
 				BA4EF97F28F73C3D004A283B /* Game.swift in Sources */,
+				55B0C0832907FE6E00B4B66B /* Info.swift in Sources */,
 				BA51B41B28ED808700E67A55 /* hw2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,9 +211,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA4EF98528F760E2004A283B /* strategy.swift in Sources */,
+				55B0C08B2907FE9C00B4B66B /* Opener.swift in Sources */,
 				BA51B41E28ED808700E67A55 /* ContentView.swift in Sources */,
 				BA4EF98028F73C3D004A283B /* Game.swift in Sources */,
+				55B0C0842907FE6E00B4B66B /* Info.swift in Sources */,
 				BA51B41C28ED808700E67A55 /* hw2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

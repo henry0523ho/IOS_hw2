@@ -19,8 +19,6 @@ struct Game: View {
                         .padding().onTapGesture {
                             showingCont=idx
                         }
-                    
-                    
                 }
             }
             ScrollView{
@@ -31,7 +29,7 @@ struct Game: View {
                 }else if showingCont==2{
                     Tetris99Cont()
                 }
-            }
+            }.background(Color("LaunchScreenBg"))
         }.navigationTitle("遊戲平台")
         
     }

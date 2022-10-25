@@ -24,9 +24,9 @@ struct ContentView: View {
                     )
                     Spacer().frame(height:10)
                     NavigationLink(
-                        destination: Game(),
+                        destination: Opener(),
                         label: {
-                            Text("遊戲技巧").padding(.horizontal).frame(maxWidth: .infinity ).font(Font.system(size:  50)).foregroundColor(Color(red: 1, green: 0.5, blue: 1 )).background(Color(red:0.4, green:0.1, blue: 0.4))
+                            Text("開場技巧").padding(.horizontal).frame(maxWidth: .infinity ).font(Font.system(size:  50)).foregroundColor(Color(red: 1, green: 0.5, blue: 1 )).background(Color(red:0.4, green:0.1, blue: 0.4))
                         }
                     )
                     Spacer().frame(height:10)
@@ -45,9 +45,9 @@ struct ContentView: View {
                     )
                     Spacer().frame(height:10)
                     NavigationLink(
-                        destination: Game(),
+                        destination: Info(),
                         label: {
-                            Text("Game").padding(.horizontal).frame(maxWidth: .infinity ).font(Font.system(size:  50)).foregroundColor(Color(red: 0.7, green: 0.7, blue: 0.7 )).background(Color(red:0.3, green:0.3, blue: 0.3))
+                            Text("其他資訊").padding(.horizontal).frame(maxWidth: .infinity ).font(Font.system(size:  50)).foregroundColor(Color(red: 0.7, green: 0.7, blue: 0.7 )).background(Color(red:0.3, green:0.3, blue: 0.3))
                         }
                     )
                 }.padding(.horizontal).navigationTitle("俄羅斯方塊")
